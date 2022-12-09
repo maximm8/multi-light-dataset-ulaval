@@ -1,6 +1,6 @@
 # Calibrated Multi-View Stereo and Multi-Light Source Dataset
 
-+ Images of **4 object scenes with different geometry and reflective properties**.
++ Images of **4 objects with different geometry and reflective properties**.
 + Each object is captured under **30 different light sources** located on the hemisphere around an object.
 + **Extrinsic and intrinsic parameters** for each frame.
 + **722** images for each object in sparse set.
@@ -30,7 +30,7 @@ data
 │   ...
 </pre>
 ## Image filename structure
-The first index XXX in image filename represents position of the turntable and ranges from 0 to 360 degrees, the second index YY is a light source number and it ranges from 11 to 40. The light source index number 00 represents a state when all the lights of the system are turned on. BW is camera #1 and CL is a camera #2.
+The first index XXX in image filename represents position of the turntable and ranges from 0 to 360 degrees, the second index YY is a light source number and it ranges from 11 to 40. The light source index number 00 represents a state when all the lights of the system are turned on. BW is camera #1 and CL is a camera #2. Sparse dataset contains only images with all light turned on.
 
 ## Calibration parameters structure
 + camera_bw_int.txt - intrinsic parameters of the fist camera. 3x3
