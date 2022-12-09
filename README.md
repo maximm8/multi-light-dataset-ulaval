@@ -30,7 +30,7 @@ data
 │   ...
 </pre>
 ## Image filename structure
-The first index XXX in image filename represents position of the turntable and ranges from 0 to 360 degrees, the second index YY is a light source number and it ranges from 11 to 40. The light source index number 00 represents a state when all the lights of the system are turned on. BW is camera #1 and CL is a camera #2. Sparse dataset contains only images with all light turned on.
+The first index XXX in image filename represents position of the turntable and ranges from 0 to 360 degrees, the second index YY is a light source number and it ranges from 11 to 40. The light source index number 00 represents a state when all the lights of the system are turned on. BW is camera #1 and CL is a camera #2. Sparse dataset contains only images with all lights turned on.
 
 ## Calibration parameters structure
 + camera_bw_int.txt - intrinsic parameters of the fist camera. 3x3
@@ -40,6 +40,13 @@ The first index XXX in image filename represents position of the turntable and r
 + camera_cl_bw_transform.txt - camera BW and CL are rigidly fixed, therefore it is possible to go from reference to another using transformation matrix. 4x4
 
 All the data are stored in row wise order.
+
+# Full dataset links
+
++ [juice bottle](https://1drv.ms/u/s!Ams3viyFsmvDgQTB61f_-ATXjjJV?e=cSJGdH) ~1.56 GB
++ [vine glass](https://1drv.ms/u/s!Ams3viyFsmvDgQancHZrkvskR04o?e=3arQFj) ~1.77 GB
++ [cola cane](https://1drv.ms/u/s!Ams3viyFsmvDgQWxygzpbF0nKwz9?e=muNNv5) ~1.75 GB
++ [cup](https://1drv.ms/u/s!Ahibo8wnfqvFsH4pP1-neX8xcVNK?e=7e3iUY) ~1.68 GB
 
 # Acquisition setup
 
