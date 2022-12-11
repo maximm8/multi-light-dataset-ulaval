@@ -50,7 +50,7 @@ All the data are stored in row wise order.
 
 # Acquisition setup
 
-These datasets were captured using system designed at University Laval at [Computer Vision and Systems Laboratory (CVSL)](http://vision.gel.ulaval.ca/en).
+These datasets were captured using system designed at University Laval at [Computer Vision and Systems Laboratory (CVSL)](http://vision.gel.ulaval.ca).
 This setup allows the rotation of an object on a turntable, the control of the lighting conditions around an object and the selection of the camera viewpoint on a hemisphere.
 
 ![acquisition setup](./images/setup.png)
